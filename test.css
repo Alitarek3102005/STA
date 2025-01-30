@@ -4,7 +4,7 @@ body{
     /* display: grid; */
 }
 nav{
-    background-image: url("images/stax-hero-03-scaled1.jpg");
+    background-image: url("stax-hero-03-scaled1.jpg");
     height: 850px;
     background-size: cover;
     z-index: 4;
