@@ -712,6 +712,250 @@ footer img{
     background-color: #E1306C;
     
 }
+@media (max-width: 1024px) {
+    nav {
+        height: auto;
+        padding: 20px;
+    }
+
+    nav img {
+        margin-left: 20px;
+    }
+
+    nav ul {
+        margin-left: 20px;
+        gap: 15px;
+    }
+
+    nav h1 {
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    nav h2 {
+        margin-left: 20px;
+    }
+
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2-1,
+    .section2-2,
+    .section2-3 {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .section3 {
+        width: 90%;
+    }
+
+    .section4,
+    .section5,
+    .section6,
+    .section7,
+    .section8,
+    .section9,
+    .section10 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section4 img,
+    .section5 img,
+    .section6 img {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .section7-1,
+    .section9-1,
+    .section9-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section7-1-1,
+    .section9-1-1,
+    .section9-1-2,
+    .section9-2-1,
+    .section9-2-2 {
+        width: 80%;
+    }
+
+    footer .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .links1,
+    footer .links2,
+    footer .links3,
+    footer .informations {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    nav {
+        height: auto;
+        padding: 10px;
+    }
+
+    nav img {
+        margin-left: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    nav h1 {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    nav h2 {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    .button1,
+    .button2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section2-1,
+    .section2-2,
+    .section2-3 {
+        width: 90%;
+    }
+
+    .section3 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section3-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3-1 button {
+        margin-left: 0;
+    }
+
+    .section4 img,
+    .section5 img,
+    .section6 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section5 p,
+    .section6 p {
+        margin-left: 10px;
+    }
+
+    .section7-1,
+    .section9-1,
+    .section9-2 {
+        flex-direction: column;
+    }
+
+    .section7-1-1,
+    .section9-1-1,
+    .section9-1-2,
+    .section9-2-1,
+    .section9-2-2 {
+        width: 90%;
+    }
+
+    .section8 {
+        flex-direction: column;
+    }
+
+    .section8 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section8-1 p {
+        margin-left: 10px;
+    }
+
+    footer .about {
+        flex-direction: column;
+    }
+
+    footer .links1,
+    footer .links2,
+    footer .links3,
+    footer .informations {
+        margin-left: 0;
+    }
+
+    footer .social {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 .div3:hover{
     background-color: blue;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    nav h1 {
+        font-size: 30px;
+    }
+
+    nav h2 {
+        font-size: 16px;
+    }
+
+    .par1,
+    .par3,
+    .par5 {
+        font-size: 30px;
+    }
+
+    .par2,
+    .par4,
+    .par6 {
+        font-size: 14px;
+    }
+
+    .span3,
+    .span5,
+    .span6,
+    .span7,
+    .span9,
+    .span10,
+    .span12,
+    .span14,
+    .span18 {
+        font-size: 24px;
+    }
+
+    .span4,
+    .span8,
+    .span11,
+    .span13,
+    .span15,
+    .span16,
+    .span17,
+    .span19,
+    .span20,
+    .span21 {
+        font-size: 14px;
+    }
 }
